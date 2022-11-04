@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+img{
+	height: 60%;
+	
+}
+
+
+.encabezado{
+	padding: 10px;
+	height: 30px;
+
+}
+.encabezado-{
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.data{
+height: 150vh;
+width: 80%; 
+}
+
+.contenedor{
+
+	display: flex;
+	justify-content: center;
+}
+
+.tematica{
+	display: flex;
+	justify-content: center;
+	width: 100%;	
+}
+
+h2{
+	padding-top: 50px;
+text-align: center;
+}
+.premios{
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.tematica2{
+	display: flex;
+	justify-content: center;
+	width: 100%;	
+}
+
+.publi2{
+	padding-top: 50px;
+	width: 50%;
+
+}
+
+@media (max-width: 600px) {
+
+	.data{
+height: 50vh;
+width: 80%; 
+}
+
+.publi{
+	width: 90%;
+
+	}
+}
